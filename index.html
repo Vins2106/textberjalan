@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<!-- Web title -->
+	<title>Text berjalan</title>
+
+	<!-- Web Responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Web SEO -->
+	<meta name="title" content="text berjalan">
+	<meta name="description" content="text berjalan">
+
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://mysite.com/">
+	<meta property="og:title" content="text berjalan">
+	<meta property="og:description" content="text berjalan">
+	<meta property="og:image" content="./img/logo.png">
+
+	<meta property="twitter:url" content="https://mysite.com/">
+	<meta property="twitter:title" content="text berjalan">
+	<meta property="twitter:description" content="text berjalan">
+	<meta property="twitter:image" content="./img/logo.png">
+
+	<!-- Web Style -->
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+<body>
+	<!-- Code -->
+	<div id="selection" class="selection">
+		<input type="text" minlength="5" id="text" placeholder="Malu bos, udah gede belum bisa ngoding :)">
+		<input type="color" id="color" value="#ffd700">
+		<button onclick="makeText()">Lanjut</button>
+	</div>
+
+	<div id="display" class="display" style="display: none;">
+		<marquee width="100%" id="textDisplay" class="text" scrollamount="45" direction="left">
+</marquee>
+	</div>
+
+	<!-- Script -->
+	<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
